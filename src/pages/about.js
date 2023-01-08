@@ -79,7 +79,7 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <h5 className="font-weight-bold">Our Misson</h5>
+                <h5 className="font-weight-bold">Our Mission</h5>
                 <p>
                   Our mission is to make reliability and safety engineering the
                   forefront of system development.
