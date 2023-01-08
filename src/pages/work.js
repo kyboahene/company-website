@@ -6,8 +6,6 @@ import Navbar from '../components/navbar'
 import '../pagepiling/jquery.work'
 import '../pagepiling/work.css'
 
-import ArrowDown from '../images/icons8-down-arrow-30.png'
-
 const Work = () => {
   useEffect(() => {
     $(document).ready(function () {
