@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Footer from '../components/footer'
 import Mobile from '../components/mobile'
 import Navbar from '../components/navbar'
+import { useTypewriter, Typewriter } from 'react-simple-typewriter'
 
 const Index = () => {
   return (
@@ -12,7 +13,7 @@ const Index = () => {
       <section className="index-page">
         <header id="video-header">
           <div className="container-fluid">
-            <div className="row text-center">
+            <div className="row text-center" style={{ height: '100vh' }}>
               <img
                 src="https://images.pexels.com/photos/28614/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 className="img-fluid z-depth-1  index_video"
@@ -20,11 +21,25 @@ const Index = () => {
               />
               <div id="video-writings" className="col-lg-12 col-sm-12">
                 <h1 className="display-3 font-weight-bold text-white">
-                  <span
+                  {/* <span
                     className="txt-rotate"
                     data-period="2000"
-                    data-rotate='[ "Welcome To", "RAMS Engineering &", "Asset Management.", "Limited." ]'
-                  ></span>
+                    data-rotate='["Welcome To", "RAMS Engineering &", "Asset Management.", "Limited."]'
+                  ></span> */}
+                  <Typewriter
+                    words={[
+                      'Welcome To',
+                      'RAMS Engineering &',
+                      'Asset Management.',
+                      'Limited.',
+                    ]}
+                    loop={0}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={200}
+                    deleteSpeed={100}
+                    delaySpeed={100}
+                  />
                 </h1>
               </div>
             </div>
@@ -83,7 +98,7 @@ const Index = () => {
             <div className="col-lg-4 view overlay zoom" id="indexContainer3">
               <Link to="/our-work" className="text-white">
                 <img
-                  src="https://www.todayonline.com/sites/default/files/styles/new_app_article_detail/public/photos/43_images/24021908.jpg?itok=EH1QNKjj"
+                  src="https://images.pexels.com/photos/3862627/pexels-photo-3862627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   className="img-fluid index-image"
                   alt=""
                 />
@@ -131,10 +146,6 @@ const Index = () => {
               </h1>
               <Link to="/contact" className="contactlink text-white">
                 Let Talk <i className="fa fa-angle-right"></i>
-                <hr
-                  className="mb-5"
-                  style={{ background: '#fff', width: '70px' }}
-                />
               </Link>
             </div>
           </div>

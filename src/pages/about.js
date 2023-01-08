@@ -50,7 +50,7 @@ const About = () => {
             </div>
             <div className="col-lg-6 pt-5">
               <img
-                src="https://reamc.com/wp-content/uploads/2020/02/DSC_0476-800x531.jpg"
+                src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 className="img-fluid"
                 alt=""
               />
@@ -99,7 +99,7 @@ const About = () => {
               />
               <h5 className="font-weight-bold">The brain behind </h5>
               <p className="lead">
-                Frederick Appoh is an experienced Principal RAMS and Asset
+                Yaw Kyei Boahene is an experienced Principal RAMS and Asset
                 Management Consultant and has worked for several rolling stock
                 manufacturing organizations including; Bombardier
                 Transportation, Alstom Transport and Hitachi Rail Europe and UK
@@ -124,7 +124,7 @@ const About = () => {
             </div>
             <div className="col-lg-6 pt-4">
               <img
-                src="https://reamc.com/wp-content/uploads/2018/01/director-1200x1524.jpg"
+                src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/2-construction-manager-sakkmesterkescience-photo-library.jpg"
                 className="img-fluid"
                 alt=""
               />

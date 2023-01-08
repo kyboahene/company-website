@@ -6,6 +6,8 @@ import Navbar from '../components/navbar'
 import '../pagepiling/jquery.work'
 import '../pagepiling/work.css'
 
+import ArrowDown from '../images/icons8-down-arrow-30.png'
+
 const Work = () => {
   useEffect(() => {
     $(document).ready(function () {
@@ -50,7 +52,7 @@ const Work = () => {
             <div className="row">
               <div className="col-md-6">
                 <img
-                  src="https://reamc.com/wp-content/uploads/2018/01/alstom2.jpg"
+                  src="https://live.staticflickr.com/3938/15599369915_b1ace103f3_b.jpg"
                   className="img-fluid"
                   alt=""
                 />
@@ -65,16 +67,10 @@ const Work = () => {
             </div>
           </div>
           <div className="event-overlay"></div>
-          <p
-            className="animated bounce infinite"
-            style={{
-              marginTop: '10%',
-              color: '#fff',
-            }}
-          >
+          <p className="icon">
             <svg
-              width="1em"
-              height="1em"
+              width="2em"
+              height="4em"
               viewBox="0 0 16 16"
               className="bi bi-arrow-down"
               fill="currentColor"
@@ -123,6 +119,21 @@ const Work = () => {
             </div>
           </div>
           <div className="event-overlay"></div>
+          <p className="icon">
+            <svg
+              width="2em"
+              height="4em"
+              viewBox="0 0 16 16"
+              className="bi bi-arrow-down"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+              />
+            </svg>
+          </p>
         </div>
         <div className="section" id="section3">
           <div className="container details">
@@ -154,6 +165,21 @@ const Work = () => {
             </div>
           </div>
           <div className="event-overlay"></div>
+          <p className="icon">
+            <svg
+              width="2em"
+              height="4em"
+              viewBox="0 0 16 16"
+              className="bi bi-arrow-down"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+              />
+            </svg>
+          </p>
         </div>
         <div className="section" id="section4">
           <div className="container details">
